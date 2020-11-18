@@ -22,12 +22,16 @@ public class GUITest {
 		JButton b1 = new JButton("Man who stare");
 		JButton b2 = new JButton("at goats");
 		JButton b52 = new JButton("at code monkeys");
+		JButton doNotPushMe = new JButton("my finger is on the button");
 		
 		frame.add(b1);
 		frame.add(b2);
 		frame.add(b52);
+		frame.add(doNotPushMe);
 		
 		frame.pack();
+		
+		frame.setVisible(true);
 	}
 
 }
